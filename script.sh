@@ -128,7 +128,7 @@ curl -o backend/index.js "https://raw.githubusercontent.com/RudyR1/template_full
 curl -o backend/src/models/AbstractManager.js "https://raw.githubusercontent.com/RudyR1/template_fullstack_starter/main/abstractmanager"
 
 # Remplis le fichier Index.js du models/backend
-curl -o backend/src/models.index.js "https://raw.githubusercontent.com/RudyR1/template_fullstack_starter/main/index-for-models"
+curl -o backend/src/models/index.js "https://raw.githubusercontent.com/RudyR1/template_fullstack_starter/main/index-for-models"
 
 # Met à jour le contenu de src/styles.scss
 echo '/* http://meyerweb.com/eric/tools/css/reset/
