@@ -1,4 +1,4 @@
-# test11
+# test12
 
 Ce projet est un starter kit pour développer des applications React.
 
@@ -8,7 +8,7 @@ Ce projet est un starter kit pour développer des applications React.
 
    ```bash
    git clone <URL_DU_REPOT>
-   cd test11
+   cd test12
    ```
 
 2. Installez les dépendances avec Yarn :
