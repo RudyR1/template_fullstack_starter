@@ -81,6 +81,28 @@ function App() {
 
 export default App;' > frontend/src/App.jsx
 
+# Remplis le contenu du fichier index.html de frontend
+echo '<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./src/assets/faviconEmmaus.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emmaüs Connect - c{hack}ahuète project</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>' > frontend/index.html
+
+# Supprimer l'index.html dans la source du projet
+rm -rf index.html
+
 # Modifie le contenu de src/App.scss
 echo 'h1 {
   display: flex;
@@ -273,4 +295,3 @@ code .
 
 # # Lance le projet avec yarn start
 # yarn start
-
