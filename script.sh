@@ -114,6 +114,9 @@ echo 'h1 {
   color: #222222;
 }' > frontend/src/App.scss
 
+# Remplis le contenu du fichier migrate.js
+curl -o "https://raw.githubusercontent.com/RudyR1/template_fullstack_starter/main/migrate.js"
+
 # Met à jour le contenu de src/styles.scss
 echo '/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
