@@ -118,8 +118,17 @@ echo 'h1 {
 curl -o backend/migrate.js "https://raw.githubusercontent.com/RudyR1/template_fullstack_starter/main/migrate.js"
 
 # Remplis le contenu des fichiers .env.sample dans le back et le frontend
-#curl -o frontend/.env.sample ""
+curl -o frontend/.env.sample "https://raw.githubusercontent.com/RudyR1/template_fullstack_starter/main/.env.sample-front"
 curl -o backend/.env.sample "https://raw.githubusercontent.com/RudyR1/template_fullstack_starter/main/.env.sample"
+
+# Remplis le fichier index.js du backend
+curl -o backend/index.js "https://raw.githubusercontent.com/RudyR1/template_fullstack_starter/main/index.js"
+
+# Remplis le fichier AbstractManager du models/backend
+curl -o backend/src/models/AbstractManager.js "https://raw.githubusercontent.com/RudyR1/template_fullstack_starter/main/abstractmanager"
+
+# Remplis le fichier Index.js du models/backend
+curl -o backend/src/models.index.js "https://raw.githubusercontent.com/RudyR1/template_fullstack_starter/main/index-for-models"
 
 # Met à jour le contenu de src/styles.scss
 echo '/* http://meyerweb.com/eric/tools/css/reset/
