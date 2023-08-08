@@ -115,7 +115,11 @@ echo 'h1 {
 }' > frontend/src/App.scss
 
 # Remplis le contenu du fichier migrate.js
-curl -o "https://raw.githubusercontent.com/RudyR1/template_fullstack_starter/main/migrate.js"
+curl -o backend/migrate.js "https://raw.githubusercontent.com/RudyR1/template_fullstack_starter/main/migrate.js"
+
+# Remplis le contenu des fichiers .env.sample dans le back et le frontend
+#curl -o frontend/.env.sample ""
+curl -o backend/.env.sample "https://raw.githubusercontent.com/RudyR1/template_fullstack_starter/main/.env.sample"
 
 # Met à jour le contenu de src/styles.scss
 echo '/* http://meyerweb.com/eric/tools/css/reset/
